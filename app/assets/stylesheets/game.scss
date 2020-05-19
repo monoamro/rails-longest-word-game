@@ -1,3 +1,30 @@
 // Place all the styles related to the game controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&display=swap');
+body {
+  justify-content: center;
+}
+.container {
+  width:600px;
+  height:300px;
+  border: solid 1px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+.blue-boxes {
+  font-family: 'Balsamiq Sans', cursive;
+  display: flex;
+  width:500px;
+  text-align: center;
+  margin:20px;
+  h3 {
+    color: rgb(255,255,255);
+    width:60px;
+    padding:3px 10px;
+    background-color: #009bff;
+    text-align: center;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    margin: 0 10px;
+  }
+}

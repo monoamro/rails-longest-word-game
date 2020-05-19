@@ -1,7 +1,6 @@
 require 'open-uri'
 
 class GameController < ApplicationController
-
   def new
     @letters = (1..9).map { ('A'..'Z').to_a[rand(26)] }
   end
